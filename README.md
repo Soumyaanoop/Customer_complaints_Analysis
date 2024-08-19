@@ -29,20 +29,27 @@ Finally our dataset have cleaned successfully.
 Exploring this data set for answering key questions. 
 
 -Which company got highest number of complaints?
+
 -Count the number of complaints received in the last 12 months?
+
 -What is the percentage of Timely respond complaints?
+
 -what is the weekly basis trend ?
+
 -what are the top 5 issues about credit card? 
 
 ### Creating Dashboard 
 
  we import and load data from Excel into Tableau. After loading data, we check whether the data is properly loaded or not in the data pane view.
 
-First count number of complaints received. Then find no of complaints received in last 12 months. For that I created a calculated field named ‘Max Date Received’ because I want to show last date of particular date value. After that I create a parameter named ‘Max Date Received’. Again create another calculated field named ‘ Rolling 12 months’. Date Diff and Date Trunc functions are used in the calculation field ‘Rolling 12 months’. 
-DateDiff(‘month’,DatTrunc(‘month’,[DateReceived.
+First count number of complaints received. 
 
 
+Then find no of complaints received in last 12 months. For that I created a calculated field named ‘Max Date Received’ because I want to show last date of particular date value. After that I create a parameter named ‘Max Date Received’. Again create another calculated field named ‘ Rolling 12 months’. Date Diff and Date Trunc functions are used in the calculation field ‘Rolling 12 months’. 
 
+DATEDIFF('month',DATETRUNC('month',[Date received]),DATETRUNC('month',[Parameters].[Max Date Received]))<12
+
+SUM(IF [Rolling 12 month filter]=True Then [Number of Records] END)
 
 
 
