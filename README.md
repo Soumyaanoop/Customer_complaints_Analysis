@@ -54,9 +54,10 @@ SUM(IF [Rolling 12 month filter]=True Then [Number of Records] END)
 
 
 Next created Timely responded complaints and its percentage. For this I created a calculation field named ‘ Timely Response’. 
-                   
 
-Then found percentage of how many complaints has been timely responded.
+                   SUM(If [Timely response?]='Yes' THEN [Number of Records] END)
+
+After this, calculate the percentage of how many complaints has been timely responded.
 
 
 
@@ -64,6 +65,7 @@ Then I found the no of complaints in progress and its percentage.
 
 
 Then create a graph showing complaints received on weekly basis and monthly basis
+
 ![Screenshot 2024-08-17 at 16 48 19](https://github.com/user-attachments/assets/fdb4affe-8243-4589-9a7b-3665a969faf9)
 
 
@@ -75,10 +77,12 @@ Next I created a sheet for density map for showing the state wise distribution o
 
 
 I find top 10 issues reported by customer. For that I use bar chart and apply filter on Issues
+
 ![Screenshot 2024-08-17 at 16 50 11](https://github.com/user-attachments/assets/986b63df-ef49-4a33-b522-316dce1fb86e)
 
 
 Let’s find out company’s response to the complaints. Take number of records over this field. So we can see total number of records in each category of issues. Then choose percentage from quick table calculation. So in this sheet shows number of records in each category of issues, also shows its percentage. 
+
 ![Screenshot 2024-08-17 at 16 50 41](https://github.com/user-attachments/assets/1b2fbf05-8c1b-4239-904c-c6988cda8710)
 
 
