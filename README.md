@@ -5,6 +5,7 @@ This data analysis project showcases a dashboard of credit card complaints in di
 
 ## Data Source 
 The primary data set used for this project is ‘Credit_card_complaints.xlsx’ file.
+ [Credit Card complaints(1).xlsx](https://github.com/user-attachments/files/16662945/Credit.Card.complaints.1.xlsx)
 
 ## Tools
 Ms Excel – used for data cleaning, exploration and analysis.  
