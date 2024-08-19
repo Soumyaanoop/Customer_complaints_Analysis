@@ -39,6 +39,9 @@ Exploring this data set for answering key questions.
 
 ### Creating Dashboard 
 
+![Image_Dashboard](https://github.com/user-attachments/assets/15451654-42e9-4413-ae60-b1af306457d4)
+
+
  we import and load data from Excel into Tableau. After loading data, we check whether the data is properly loaded or not in the data pane view.
 
 First count number of complaints received. 
