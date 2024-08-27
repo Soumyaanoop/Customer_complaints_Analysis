@@ -1,4 +1,4 @@
-# Customer_complaints_Analysis
+# Creditcard complaints_Analysis
 
 ## Project Overview
 This data analysis project showcases a dashboard of credit card complaints in different companies. In this project give insights about which company got highest number of complaints, category of issues, how long it takes to solve the complaint. This dashboard lets the companies know the issues and they can improve their services by identifying these issues. 
