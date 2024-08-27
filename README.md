@@ -106,6 +106,21 @@ Let's find which the companies have got highest number of complaints
 
 ![Screenshot 2024-08-17 at 16 47 11](https://github.com/user-attachments/assets/4a3a727a-42fc-4895-a85b-2a1247644151)
 
+## Results/Findings
+
+The analysis results are summarized as follows
+
+-98.90 % complaints got timely response.
+
+-Billing Issue hold the majority among complaints.
+
+-Number of complaints were highest for Citi Bank at 16383 followed by Capital One and JP Morgan chase & Cos.
+
+-California state has highest number of complaints .
+
+-68.92% of complaints submitted through web.
+
+
 
 
 
